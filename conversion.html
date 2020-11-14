@@ -1,0 +1,12 @@
+<script>
+  let obj = {
+    p_id: 111,
+  };
+  console.log(typeof obj); //object
+  let str = JSON.stringify(obj);
+
+  console.log(str, typeof str); //{"p_id":111} string
+
+  let obj1 = JSON.parse(str);
+  console.log(obj1, typeof obj1); // {p_id: 111}p_id: 111__proto__: Object "object"
+</script>
