@@ -79,11 +79,11 @@ Fields in the API.
                 flag
                 numericCode
 
-## object to string conversion
+# object to string conversion
 
     JSON.stringify()
 
-## string to object
+# string to object
 
     JSON.parse()
 
@@ -119,5 +119,3 @@ open cmd prompt --> npm install -g json-server --> installation complete.
 we will load the JSON data in JSON Server by using following command.
 
 > json-server --watch demo.json
-
-Why JSON Server?
